@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <title>Landing page DNC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--MENU SUPERIOR-->
+    <div id="menusuperior">
+        <a href="https://ed.escoladnc.com.br/formacao-dados-g/?utm_source=adwords&utm_medium=ppc&utm_campaign=&utm_content=hr-ga-dado-194-7-1&utm_term=escola%20dnc&utm_campaign=%5B194%5D%5BOP%5D%5BHR%5D%5BDados%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=1620955800&hsa_cam=19602636121&hsa_grp=150705019612&hsa_ad=645959984053&hsa_src=g&hsa_tgt=kwd-1438800820250&hsa_kw=escola%20dnc&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFueE56enrLrrhVRMO-MsSCf_kZgvAGS78waHSv51_N8UtiMCI594oBoCGMwQAvD_BwE">
+            <img id="logo" src="./icons/logo.svg" alt="ERROR" srcset="">
+        </a>
+        
+        <h1 id="titulo-menuSuperior">Dê os primeiros passos da <br>
+            sua carreira em Tecnologia</h1>
+        <p id="texto-menuSuperior">Inscreva-se no curso gratuito de Introdução à <br> 
+            Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas.
+        </p>
+    </div>
+
+    <!--MENU INFORMACIONAL-->
+    
+    <div id="menuinformacional">
+        
+        <p class="textoinformativo"> <img src="./icons/icon1.svg" alt="" class="icon" >Certificado de conclusão</p>
+        
+        <p class="textoinformativo"> <img  src="./icons/icon2.svg" alt="" class="icon" > 4 horas de conteúdo</p>
+        
+        <p class="textoinformativo"> <img  src="./icons/icon3.svg" alt="" class="icon" > Aulas online gravadas</p>
+    </div>
+
+    <!--SEÇÃO VÍDEO-->
+
+    <div id="secaovideo">
+        <iframe id="video" width="502" height="280" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="textosecaovideo">
+            <h1 id="titulovideo" >Aprenda com especialistas e <br> 
+                comece seu primeiro projeto </h1> <br> <br>
+        
+                <p id="textovideo" >Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos. <br> <br>
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+
+    <!--CARROSSEL-->
+
+    <div id="carrossel">
+        <h1 id="titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h1> <br> <br>
+        
+        <!--DIVISÃO DOS CARDS-->
+        
+        <div id="div-cards">
+            <img class="seta" id="seta-esquerda" onclick="RolarParaEsquerda()" src="./icons/seta2.svg" alt="">
+            <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="">
+            <img id="samanta" class="card" src="./cards/samanta.svg" alt="">
+            <img id="bruna" class="card" src="./cards/bruna.svg" alt="">
+            <img class="seta" id="seta-direita" onclick="RolarParaDireita()" src="./icons/seta.svg" alt="">
+        </div> 
+        
+    </div>
+
+    <!--FORMULÁRIO-->
+        
+    <div id="formulario" >
+        <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira!</h1>
+        <form action="https://api.sheetmonkey.io/form/jmM9GNjnue6ULZFoAfWnre" method="post" >
+            <div> 
+                <input type="text" placeholder="Nome" name="Name" required > <br>
+                <input type="text" placeholder="Email" name="Email" required ><br>
+                <input type="number" placeholder="Telefone" name="Phone" ><br> <br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit" >Acesse a ementa grátis</button>
+            </div>
+        </form>
+    </div>
+    
+
+<script src="index.js"></script>    
+</body>
+</html>
